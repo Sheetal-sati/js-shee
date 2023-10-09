@@ -24,3 +24,26 @@ const myfunc = function(){
 }
 myfunc()
 console.log(typeof myfunc)
+
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++
+//Memory
+
+//# Stack Memory => Primitve here we get stacked value
+let a ="shee"
+let b= a
+b="new"
+console.log(a);
+console.log(b);
+
+
+//# Heap Memory => Non Primitive here we get its reference
+let use = {
+    email: "2@gemp.com",
+    id:1
+}
+console.log(use);
+let use2 = use
+use2.id = 4
+console.log(use2);
