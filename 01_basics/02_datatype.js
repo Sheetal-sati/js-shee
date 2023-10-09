@@ -13,3 +13,14 @@ let isLog = false
 
 console.log(typeof null); 
 // why null is an object?
+
+//Javascript is a dynamic typing language. When you declare a variable, you do not need to specify what type this variable is. 
+//Javascript engine infers what type this variable is based on the value assigned to at run time.
+
+//# Primitive datatype => String, Number,  Boolean, Null, Undefined, Symbol, BigInt
+//# Reference Type/Non-Primitive datatype =? Array, Object, Functions
+const myfunc = function(){
+    console.log("hi")
+}
+myfunc()
+console.log(typeof myfunc)
