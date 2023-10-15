@@ -22,3 +22,5 @@ console.log((Math.random() * 10) + 1) //multiplying wiht 10 as we are shifting o
 const min = 10;
 const max = 20;
 console.log(Math.round((Math.random() * (max - min + 1)/*this is range */) + min/*this is min value */)) //formula as we need minimum 10 as our value
+
+
